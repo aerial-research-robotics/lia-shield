@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="3" unitdist="mil" unit="mm" style="dots" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -153,7 +153,6 @@
 <wire x1="16.0016" y1="7.7314" x2="17.9828" y2="7.7314" width="0.2032" layer="21"/>
 <wire x1="17.9828" y1="7.7314" x2="19.2782" y2="6.436" width="0.2032" layer="21"/>
 <wire x1="19.2782" y1="6.436" x2="19.2782" y2="2.9308" width="0.2032" layer="21"/>
-<wire x1="6.4004" y1="13.0654" x2="2.6666" y2="13.0654" width="0.2032" layer="21"/>
 <wire x1="24.7646" y1="7.7314" x2="20.5736" y2="7.7314" width="0.2032" layer="21"/>
 <wire x1="20.5736" y1="7.7314" x2="19.2782" y2="6.436" width="0.2032" layer="21"/>
 <wire x1="29.0318" y1="7.8076" x2="33.299" y2="7.8076" width="0.2032" layer="21"/>
@@ -180,24 +179,7 @@
 <wire x1="42.5954" y1="26.0956" x2="44.8814" y2="26.0956" width="0.2032" layer="21"/>
 <wire x1="44.8814" y1="26.0956" x2="46.0244" y2="27.2386" width="0.2032" layer="21"/>
 <wire x1="46.0244" y1="27.2386" x2="46.0244" y2="30.82" width="0.2032" layer="21"/>
-<wire x1="6.45" y1="14.73" x2="6.45" y2="16.53" width="0.127" layer="21"/>
-<wire x1="7.75" y1="16.53" x2="7.75" y2="14.73" width="0.127" layer="21"/>
-<wire x1="7.75" y1="16.53" x2="6.45" y2="16.53" width="0.127" layer="21" curve="180"/>
-<wire x1="6.45" y1="14.73" x2="7.75" y2="14.73" width="0.127" layer="21" curve="180"/>
-<wire x1="7.0862" y1="14.056" x2="7.0862" y2="13.7512" width="0.2032" layer="21"/>
-<wire x1="7.0862" y1="13.7512" x2="6.4004" y2="13.0654" width="0.2032" layer="21"/>
-<wire x1="2.7428" y1="18.0946" x2="6.4004" y2="18.0946" width="0.2032" layer="21"/>
-<wire x1="6.4004" y1="18.0946" x2="7.0862" y2="17.4088" width="0.2032" layer="21"/>
-<wire x1="7.0862" y1="17.4088" x2="7.0862" y2="17.1802" width="0.2032" layer="21"/>
-<wire x1="6.45" y1="19.9878" x2="6.45" y2="21.4068" width="0.127" layer="21"/>
-<wire x1="7.75" y1="21.4068" x2="7.75" y2="19.9878" width="0.127" layer="21"/>
-<wire x1="7.75" y1="21.4068" x2="6.45" y2="21.4068" width="0.127" layer="21" curve="180"/>
-<wire x1="6.45" y1="19.9878" x2="7.75" y2="19.9878" width="0.127" layer="21" curve="180"/>
-<wire x1="7.0862" y1="19.3138" x2="7.0862" y2="18.7804" width="0.2032" layer="21"/>
-<wire x1="7.0862" y1="18.7804" x2="6.4004" y2="18.0946" width="0.2032" layer="21"/>
 <wire x1="2.819" y1="23.2" x2="6.4004" y2="23.2" width="0.2032" layer="21"/>
-<wire x1="6.4004" y1="23.2" x2="7.0862" y2="22.5142" width="0.2032" layer="21"/>
-<wire x1="7.0862" y1="22.5142" x2="7.0862" y2="22.1332" width="0.2032" layer="21"/>
 <wire x1="6.3738" y1="26.3886" x2="6.3738" y2="27.8076" width="0.127" layer="21"/>
 <wire x1="7.6738" y1="27.8076" x2="7.6738" y2="26.3886" width="0.127" layer="21"/>
 <wire x1="7.6738" y1="27.8076" x2="6.3738" y2="27.8076" width="0.127" layer="21" curve="180"/>
@@ -246,20 +228,7 @@
 <text x="41.9096" y="29.087" size="0.762" layer="21" font="vector" ratio="20" rot="R270">3V3</text>
 <text x="39.3188" y="29.1632" size="0.762" layer="21" font="vector" ratio="20" rot="R270">SCL</text>
 <text x="36.6518" y="29.1632" size="0.762" layer="21" font="vector" ratio="20" rot="R270">SDA</text>
-<text x="27.8488" y="-2.835" size="1.778" layer="49">Licensed under:</text>
 <text x="26.6696" y="8.1886" size="0.762" layer="21" font="vector" ratio="20" rot="SR180">RC</text>
-<text x="27.925" y="-6.5688" size="1.016" layer="49">http://creativecommons.org/licenses/by-sa/3.0/</text>
-<text x="0.6092" y="-3.3176" size="0.635" layer="49" ratio="20">(C) 2010-2011 Antoine Drouin &lt;poinix@gmail.com&gt;</text>
-<text x="0.6092" y="-4.4606" size="0.635" layer="49" ratio="20">(C) 2010-2012 Piotr Esden-Tempski &lt;piotr@esden.net&gt;</text>
-<text x="0.6092" y="-5.6036" size="0.635" layer="49" ratio="20">(C) 2011 Richard Hatano &lt;rhatano@jobyenergy.com&gt;</text>
-<text x="0.6092" y="-6.6704" size="0.635" layer="49" ratio="20">(C) 2011-2012 Transition Robotics &lt;info@transition-robotics.com&gt;</text>
-<text x="27.925" y="-5.121" size="1.778" layer="49">CC-BY-SA 3.0</text>
-<text x="6.6386" y="17.0904" size="0.8128" layer="21" font="vector" ratio="20" rot="R270">I2C1</text>
-<text x="6.6386" y="21.891" size="0.8128" layer="21" font="vector" ratio="20" rot="R270">CAN</text>
-<text x="4.1144" y="16.4182" size="0.762" layer="21" font="vector" ratio="20" rot="SR180" align="top-right">SCL</text>
-<text x="4.1144" y="13.9798" size="0.762" layer="21" font="vector" ratio="20" rot="SR180" align="top-right">SDA</text>
-<text x="4.0382" y="21.3712" size="0.762" layer="21" font="vector" ratio="20" rot="SR180" align="top-right">LOW</text>
-<text x="4.0382" y="19.0852" size="0.762" layer="21" font="vector" ratio="20" rot="SR180" align="top-right">HI</text>
 <text x="3.962" y="24.0382" size="0.762" layer="21" font="vector" ratio="20" rot="SR180" align="top-right">VIN</text>
 <text x="6.5624" y="28.2918" size="0.8128" layer="21" font="vector" ratio="20" rot="R270">BAT</text>
 <text x="3.962" y="26.629" size="0.762" layer="21" font="vector" ratio="20" rot="SR180" align="top-right">BVS</text>
@@ -269,7 +238,6 @@
 <hole x="5.3" y="31.45" drill="2.3"/>
 <hole x="48.6" y="31.45" drill="2.3"/>
 <hole x="48.6" y="2.15" drill="2.3"/>
-<rectangle x1="20.287" y1="5.5804" x2="42.287" y2="27.5804" layer="16"/>
 </plain>
 <libraries>
 <library name="pinhead">
@@ -444,6 +412,33 @@
 <rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
 <rectangle x1="-7.874" y1="-0.254" x2="-7.366" y2="0.254" layer="51"/>
 <rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+</package>
+<package name="1X03/90">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
+<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
+<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
+<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
+<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
+<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
 </package>
 </packages>
 </library>
@@ -679,7 +674,8 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="DNP" value="T" x="16.8144" y="30.86" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="conn-th-0.1in-7-1" x="16.8144" y="30.86" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U1" library="Bluetooth HC-05" package="BLUETOOTH_SMD" value="HC_05" x="53.4924" y="17.145" rot="R270"/>
+<element name="U1" library="Bluetooth HC-05" package="BLUETOOTH_SMD" value="HC_05" x="53.34" y="17.78" rot="R270"/>
+<element name="JP1" library="pinhead" package="1X03/90" value="" x="11.43" y="8.89" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
